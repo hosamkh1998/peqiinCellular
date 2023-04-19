@@ -1,0 +1,232 @@
+body{
+    background-color: #2d2f31;
+}
+.logoCircle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #000;
+    margin-top: -100px;
+    background-color: #fff;
+}
+.container{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 60px; */
+}
+
+.mainBusName{
+    text-shadow: 0px 4px 10px #1496d0;
+}
+.title{
+    text-shadow: 0px 5px 10px BLACK;
+}
+
+a{
+    text-decoration: none;
+}
+
+.massengerIcon{
+    color: #0099FF;
+}
+
+.wazeIcon{
+    color: #7ec0ee;
+}
+
+@media screen and (min-width: 1200px) {
+    .logoCircle{
+        width: 300px;
+        height: 300px;
+        margin-top: -100px;
+    }
+    .sectorItem{
+        font-size: 15pt;
+    }
+    .sectorItemH{
+        font-size: 25pt;
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logoCircle{
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+    }
+    .sectorItem{
+        font-size: 10pt;
+    }
+    .sectorItemH{
+        font-size: 15pt;
+    }
+    h2{
+        font-size: 15pt;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .iconLink{
+        width: 33.333%;
+        margin-bottom: 5%;
+    }
+    .sharingIcons img{
+        width: 45px;
+    }
+}
+
+
+.icons, .iconLink{
+    transition: 1s;
+    transform: scale(1,1,1);
+    cursor: pointer;
+}
+
+
+.icons:hover{
+    animation-name: icons;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.iconLink:hover{
+    /* transform: scale(1.2); */
+    animation-name: iconLink;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes iconLink {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes icons {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.businessName{
+    color: #1496d0;
+    font-weight: bolder;
+}
+
+hr{
+    border: 2px solid #000;
+}
+
+.staticHr{
+    border: 2px solid #000;
+    width: 50%;
+    margin-top: 2%;
+}
+
+li a {text-decoration : none; color : #2d2f31;}
+
+
+nav {
+  width : 300px; 
+  background: #d9d9d9;
+  margin : 40px auto; 
+}
+
+.activityTimeSpan {
+  padding : 30px;
+  background : #2d2f31; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  font-weight : bold;
+  cursor : pointer;
+  display: block;
+}
+
+.activityTimeSpan::after {
+  float: left;
+  right: 10%;
+  content: "+";
+}
+
+.slide {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+  padding: 0;
+}
+
+.slide li {padding : 30px;}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 80px;padding: 2%;}
+
+.curousleImages{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: url(../images/darkBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.carousleItem {
+    animation-name: carousleItem;
+    animation-duration: 2s;
+    transition: 3s;
+  }
+    
+  @keyframes carousleItem {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  .carousleImg{
+    transition: 3s;
+  }
+
+  .dot, .dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,.dot:hover {
+    background-color: #717171;
+  }
+
+  .active2,.dot2:hover {
+    background-color: #717171;
+  }
+
+  .footer{
+    height: 70px;
+    font-weight: bolder;
+  }
