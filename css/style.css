@@ -68,9 +68,6 @@ a{
     .sectorItemH{
         font-size: 15pt;
     }
-    h2{
-        font-size: 15pt;
-    }
 }
 
 @media screen and (max-width: 990px) {
@@ -229,4 +226,5 @@ nav {
   .footer{
     height: 70px;
     font-weight: bolder;
+    z-index: 1;
   }

@@ -297,13 +297,13 @@ function sendWhatsappMsg() {
   var statusAlert = document.querySelector(".statusAlert");
   if (name !== "" || email !== "" || message !== "" || phone !== "") {
     var url =
-      "https://api.whatsapp.com/send?phone=+972524069659&text=שלום זה " +
+      "https://api.whatsapp.com/send?phone=+972509903617&text=שלום זה " +
       name +
       " שולח לך הודעה מדף הנחיתה%0Aהאימיל שלי הוא " +
       email +
       "%0Aמס' טלפון - " +
       phone +
-      "%0Aאני צריך " +
+      "%0A" +
       message;
     statusAlert.classList.replace("alert-danger", "alert-success");
     statusAlert.classList.replace("d-none", "d-block");
@@ -326,28 +326,25 @@ function sendWhatsappMsg() {
   }
 }
 
-// function callToPhone() {
-//   var url = "tel:0524069659";
-//   window.open(url, "_blank");
-// }
-
 function shareToFacebook() {
   var url =
-    "https://www.facebook.com/sharer/sharer.php?u=https://www.galaxy.co.il/";
+    "https://www.facebook.com/sharer/sharer.php?u=https://hosamkh1998.github.io/peqiinCellular/";
   window.open(url, "_blank");
 }
 
 function shareToWhatsapp() {
-  var url = "https://api.whatsapp.com/send?text=https://www.galaxy.co.il/";
+  var url =
+    "https://api.whatsapp.com/send?text=https://hosamkh1998.github.io/peqiinCellular/";
   window.open(url, "_blank");
 }
 
 function shareToMail() {
-  var url = "mailto:?subject=Galaxy S23&body=https://www.galaxy.co.il/";
+  var url =
+    "mailto:?subject=Galaxy S23&body=https://hosamkh1998.github.io/peqiinCellular/";
   window.open(url, "_blank");
 }
 
 function shareToSms() {
-  var url = "sms:?body=https://www.galaxy.co.il/";
+  var url = "sms:?body=https://hosamkh1998.github.io/peqiinCellular/";
   window.open(url, "_blank");
 }
