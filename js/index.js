@@ -26,52 +26,52 @@ var sectors = [
 
 var carousleItems = [
   {
-    img: "../images/m1.jpg",
+    img: "./images/m1.jpg",
     title: "סמארטפונים",
     text: "סמארטפונים חדשים ומשופרים",
   },
   {
-    img: "../images/m2.jpg",
+    img: "./images/m2.jpg",
     title: "אביזרים",
     text: "אביזרים חדשים ומשופרים",
   },
   {
-    img: "../images/m3.jpg",
+    img: "./images/m3.jpg",
     title: "מחשבים",
     text: "מחשבים חדשים ומשופרים",
   },
   {
-    img: "../images/m4.jpg",
+    img: "./images/m4.jpg",
     title: "מעבדת תיקונים",
     text: "מעבדת תיקונים חדשה ומשופרת",
   },
   {
-    img: "../images/m5.jpg",
+    img: "./images/m5.jpg",
     title: "סמארטפונים",
     text: "סמארטפונים חדשים ומשופרים",
   },
   {
-    img: "../images/m6.jpg",
+    img: "./images/m6.jpg",
     title: "אביזרים",
     text: "אביזרים חדשים ומשופרים",
   },
   {
-    img: "../images/m7.jpg",
+    img: "./images/m7.jpg",
     title: "מחשבים",
     text: "מחשבים חדשים ומשופרים",
   },
   {
-    img: "../images/m8.jpg",
+    img: "./images/m8.jpg",
     title: "מעבדת תיקונים",
     text: "מעבדת תיקונים חדשה ומשופרת",
   },
   {
-    img: "../images/m9.jpg",
+    img: "./images/m9.jpg",
     title: "סמארטפונים",
     text: "סמארטפונים חדשים ומשופרים",
   },
   {
-    img: "../images/m10.jpg",
+    img: "./images/m10.jpg",
     title: "אביזרים",
     text: "אביזרים חדשים ומשופרים",
   },
@@ -79,52 +79,52 @@ var carousleItems = [
 
 var carousleItems2 = [
   {
-    img: "../images/m1-1.jpg",
+    img: "./images/m1-1.jpg",
     title: "סמארטפונים",
     text: "סמארטפונים חדשים ומשופרים",
   },
   {
-    img: "../images/m2-1.jpg",
+    img: "./images/m2-1.jpg",
     title: "אביזרים",
     text: "אביזרים חדשים ומשופרים",
   },
   {
-    img: "../images/m3-1.jpg",
+    img: "./images/m3-1.jpg",
     title: "מחשבים",
     text: "מחשבים חדשים ומשופרים",
   },
   {
-    img: "../images/m4-1.jpg",
+    img: "./images/m4-1.jpg",
     title: "מעבדת תיקונים",
     text: "מעבדת תיקונים חדשה ומשופרת",
   },
   {
-    img: "../images/m5-1.jpg",
+    img: "./images/m5-1.jpg",
     title: "סמארטפונים",
     text: "סמארטפונים חדשים ומשופרים",
   },
   {
-    img: "../images/m6-1.jpg",
+    img: "./images/m6-1.jpg",
     title: "סמארטפונים",
     text: "סמארטפונים חדשים ומשופרים",
   },
   {
-    img: "../images/m7-1.jpg",
+    img: "./images/m7-1.jpg",
     title: "מחשבים",
     text: "מחשבים חדשים ומשופרים",
   },
   {
-    img: "../images/m8-1.jpg",
+    img: "./images/m8-1.jpg",
     title: "מעבדת תיקונים",
     text: "מעבדת תיקונים חדשה ומשופרת",
   },
   {
-    img: "../images/m9-1.jpg",
+    img: "./images/m9-1.jpg",
     title: "סמארטפונים",
     text: "סמארטפונים חדשים ומשופרים",
   },
   {
-    img: "../images/m10-1.jpg",
+    img: "./images/m10-1.jpg",
     title: "אביזרים",
     text: "אביזרים חדשים ומשופרים",
   },
