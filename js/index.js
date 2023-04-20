@@ -348,3 +348,14 @@ function shareToSms() {
   var url = "sms:?body=https://hosamkh1998.github.io/peqiinCellular/";
   window.open(url, "_blank");
 }
+
+// var firebaseConfig = {
+//   apiKey: "AIzaSyBCa2wUVtAVqNOwYaU-KwwNTvZKJPAe-Ws",
+//   authDomain: "peqiincellular-2023.firebaseapp.com",
+//   projectId: "peqiincellular-2023",
+//   storageBucket: "peqiincellular-2023.appspot.com",
+//   messagingSenderId: "709513494450",
+//   appId: "1:709513494450:web:ff62620c649b1d47c0aeab",
+// };
+
+// firebase.initializeApp(firebaseConfig);
